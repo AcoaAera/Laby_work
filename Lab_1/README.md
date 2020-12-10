@@ -18,11 +18,14 @@
 * Запустить nginx в Docker
 
 
+
     cd nginx
     docker build -t "custom_nginx" .
     docker run -d --rm -p 80:80 custom_nginx 
+
     
 * Запустить сервер в 5-ти экземплярах
+    
     
     
     cd server 
@@ -39,10 +42,13 @@
 Обновляя страницу можно увидеть как Nginx перенапрвляет запросы к одному из 5 запущенных серверов.
 
 Созданные image
+
 ![alt text](img/images.JPG)
 
 Запущенные containers
+
 ![alt text](img/containers.JPG)
 
 Пример работы
+
 ![alt text](img/work.JPG)

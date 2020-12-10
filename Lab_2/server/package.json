@@ -1,0 +1,14 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "The best way to manage your Node app using Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "redis": "^3.0.2"
+  }
+}
