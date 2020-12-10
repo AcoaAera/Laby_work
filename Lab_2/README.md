@@ -1,4 +1,4 @@
-# Lab_02 QT Server | Redis
+# Lab_02 NodeJS Server | Redis
 
 #### Установка и запуск сервера Redis
 

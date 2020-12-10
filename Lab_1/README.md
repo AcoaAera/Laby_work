@@ -1,4 +1,4 @@
-# Lab_01 QT Server | Nginx | Docker
+# Lab_01 NodeJS Server | Nginx | Docker
 
 Вся работа выполнялась на ОС Windows x64
 
