@@ -43,12 +43,12 @@
 
 Созданные image
 
-![alt text](img/images.JPG)
+![alt text](./img/images.JPG)
 
 Запущенные containers
 
-![alt text](img/containers.JPG)
+![alt text](./img/containers.JPG)
 
 Пример работы
 
-![alt text](img/work.JPG)
+![alt text](./img/work.JPG)

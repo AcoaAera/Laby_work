@@ -1,4 +1,4 @@
-# Lab_06 AWS S3
+# Lab_07 Computer Vision
 
 #### Проект реализован с помощью HTML, JS, CSS, Axios, jQuery и NodeJs
 
@@ -44,4 +44,4 @@
 
 Полученная картинка:
 
-![](./Lab_7/img/result.jpg)
+![](.//./img/result.jpg)
