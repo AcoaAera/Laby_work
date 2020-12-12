@@ -71,19 +71,19 @@
     
 #### Данные в таблицу добавлены. Как можно заметить они отсортированы.
 
-![](./img/INSERT.jpg)
+![](/img/INSERT.jpg)
 
 #### В базе данных показаны созданные секции таблицы "measurement" и данные в партиции "measurement_y2020m01"
 
     SELECT * FROM "sarafan"."measurement_y2020m01";
 
-![](./img/m_y2020m01.jpg)
+![](/img/m_y2020m01.jpg)
 
 #### Удаляем данные за январь:
 
     DROP TABLE "sarafan"."measurement_y2020m01";
     
-![](./img/DELETE.jpg)
+![](/img/DELETE.jpg)
 
 При таком удалении данные из таблицы "measurement" удаляются также. На изображении отсутствуют данные за январь.
 
@@ -91,7 +91,7 @@
 
     ALTER TABLE measurement DETACH PARTITION measurement_y2020m02;
     
-![](./img/ALTER_TABLE.jpg)
+![](/img/ALTER_TABLE.jpg)
 
 Таблица "measurement_y2020m02" стала самостоятельной. Из основной таблицы удалились данные за февраль. Они хранятся в новой таблице. 
 
@@ -103,6 +103,6 @@
     ALTER TABLE measurement ATTACH PARTITION measurement_y2020m02 
     FOR VALUES FROM ('2020-02-01') TO ('2020-03-01' );
 
-![](./img/ALTER_TABLE2.jpg)
+![](/img/ALTER_TABLE2.jpg)
 
 Данные за февраль появились. Появилась партиция "measurement_y2020m02"

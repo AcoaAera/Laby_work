@@ -44,4 +44,4 @@
 
 Полученная картинка:
 
-![](./img/result.jpg)
+![](/img/result.jpg)
